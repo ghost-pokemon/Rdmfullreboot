@@ -28,7 +28,7 @@ Finally, click OK button.
 
 4. select auto start
 
-5. Edit The Path in `startup-vmwarehostd-fix.cmd`
+5. From The Windows Folder Edit The Path in `startup-vmwarehostd-fix.cmd`
 
 6. shift right click on the `startup-vmwarehostd-fix.cmd` and select run as a different user. Use an account with administrator rights and password.
 
@@ -81,3 +81,9 @@ If FileVault is turned on, manual login is required for all accounts. You can tu
 If an account uses an iCloud password to log in, manual login is required for that account. You might also see the message “A user with an encrypted home folder can't log in automatically.” When changing the account password, you can choose not to use the iCloud password.
 
 Close System Preferences to save changes.
+
+
+###RDM Start and Kill
+
+
+
