@@ -87,15 +87,16 @@ Close System Preferences to save changes.
 
 From Mac Folder
 
-This `start.scpt` reopens terminal after a reboot, when paired with a cron. The delay can be increased or decreased depending upon the speed of the MacOS VM:
+This `start.scpt` reopens terminal after a reboot, when paired with a cron. `sudo crontab -e` then paste the text from cron.txt. The delay can be increased or decreased depending upon the speed of the MacOS VM:
 
 You need to change the path in all the scipts 
 
 Adjust delay as need and file path to the .scpt script.
 
-`restart.scpt`
+`start.sh`
 This is the simple Manager restart script. It only restarts the manager on crash, but does not clear any of the crash component. Once again, adjust file path accordingly.
 
+`killall.sh`
 This is the more aggressive version of that same script. This will force closed any open Xcode scripts which are active at the time. It's a killall and manager script combined.
 
 Either one of those two manager script can be used, adjust the path accordingly and any arguments you want to use in the script.
